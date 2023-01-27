@@ -6,6 +6,10 @@ This is a simple class (totally stolen from [Heinz Kabutz](https://www.javaspeci
 
 Your task is to run this project, use a dump tool and analyse the outcome.
 
+If you are using IntelliJ, you can use the built-in Profiler to achieve this.
+
+Some other options below (useful for example if connecting to remote servers etc):
+
 In your JDK you'll find jstack. Run the program, find the PID and execute the `jstack` command on that PID
 
     > ps -ef | grep concurrency.Blocking
