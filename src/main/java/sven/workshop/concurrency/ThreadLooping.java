@@ -24,9 +24,9 @@ public class ThreadLooping {
 
 	public List<String> runMe() {
 
-		var t3 = new Thread(worker);
-		var t4 = new Thread(worker);
-		var t5 = new Thread(worker);
+		var t3 = new Thread(worker, "Thread-3");
+		var t4 = new Thread(worker, "Thread-4");
+		var t5 = new Thread(worker, "Thread-5");
 
 		t3.start();
 		t4.start();
