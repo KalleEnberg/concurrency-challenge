@@ -4,7 +4,8 @@
 
 Finally time for you to start coding!
 
-This branch consists of a simple cache implementation. Your task it to break it, expose the weaknesses - and fix it.
+This branch consists of a simple cache implementation, supposedly thread-safe and ready for concurrent operations (but is it really?). 
+Your task it to break it, expose the weaknesses - and fix it.
 
  * Make tests that checks the initial logic
  * Make tests that breaks the cache
